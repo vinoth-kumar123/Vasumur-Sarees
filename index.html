@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vasumur Sarees &amp; Chudidars</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header__inner">
+      <div class="logo">
+        <!-- Replace with: <img src="logo.png" alt="Vasumur Sarees"> -->
+        <span>VS</span>
+      </div>
+
+      <div class="title">
+        <h1>Vasumur Sarees</h1>
+        <p class="subtitle">Sarees &amp; Chudidars for Every Occasion</p>
+      </div>
+
+      <div class="contact-strip">
+        <a href="tel:+917358367425">📞 7358 367 425</a>
+        <a href="tel:+919003159888">📞 90031 59888</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__border" aria-hidden="true"></div>
+    <h2>Woven for Every Occasion</h2>
+    <p>
+      At <strong>Vasumur Sarees</strong>, we bring you a curated collection of sarees and
+      chudidars — from everyday elegance to bridal splendour — crafted with quality fabric
+      and honest pricing.
+    </p>
+    <div class="hero__border" aria-hidden="true"></div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="categories-section">
+    <h2>All Varieties We Provide</h2>
+    <div class="categories">
+      <div class="category-card">
+        <span class="category-icon">👰</span>
+        <h3>Bridal Sarees</h3>
+        <p>Rich silks for your big day</p>
+      </div>
+      <div class="category-card">
+        <span class="category-icon">🎉</span>
+        <h3>Party Wear Sarees</h3>
+        <p>Statement pieces for celebrations</p>
+      </div>
+      <div class="category-card">
+        <span class="category-icon">🌿</span>
+        <h3>Cotton Sarees</h3>
+        <p>Light, breathable, everyday comfort</p>
+      </div>
+      <div class="category-card">
+        <span class="category-icon">✨</span>
+        <h3>Silk Sarees</h3>
+        <p>Traditional weaves, timeless shine</p>
+      </div>
+      <div class="category-card">
+        <span class="category-icon">💃</span>
+        <h3>Designer Sarees</h3>
+        <p>Contemporary cuts, bold prints</p>
+      </div>
+      <div class="category-card">
+        <span class="category-icon">🧵</span>
+        <h3>Chudidars</h3>
+        <p>Stitched sets in every size</p>
+      </div>
+      <div class="category-card">
+        <span class="category-icon">🏡</span>
+        <h3>Daily Wear Sarees</h3>
+        <p>Comfortable and affordable</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="products-section">
+    <h2>Our Collections</h2>
+    <div class="products" id="products">
+
+      <div class="card">
+        <div class="card__image-wrap">
+          <img src="saree1.jpg" alt="Silk Saree">
+        </div>
+        <h3>Silk Saree</h3>
+        <p class="price">₹2,500</p>
+      </div>
+
+      <div class="card">
+        <div class="card__image-wrap">
+          <img src="saree2.jpg" alt="Cotton Saree">
+        </div>
+        <h3>Cotton Saree</h3>
+        <p class="price">₹1,200</p>
+      </div>
+
+      <div class="card">
+        <div class="card__image-wrap">
+          <img src="saree3.jpg" alt="Designer Saree">
+        </div>
+        <h3>Designer Saree</h3>
+        <p class="price">₹3,800</p>
+      </div>
+
+      <div class="card">
+        <div class="card__image-wrap">
+          <img src="chudidar1.jpg" alt="Chudidar Set">
+        </div>
+        <h3>Chudidar Set</h3>
+        <p class="price">₹1,800</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-section">
+    <h2>Contact Us</h2>
+    <form id="contactForm" novalidate>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      <textarea id="message" name="message" placeholder="Message" rows="4"></textarea>
+      <button type="submit">Send</button>
+      <p id="formStatus" class="form-status" role="status"></p>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Vasumur Sarees. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
